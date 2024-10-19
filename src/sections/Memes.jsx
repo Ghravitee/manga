@@ -1,9 +1,9 @@
-import meme2 from "../assets/meme-2.PNG";
-import meme3 from "../assets/meme-3.PNG";
-import meme4 from "../assets/meme-4.PNG";
-import meme5 from "../assets/meme-5.PNG";
-import meme6 from "../assets/meme-6.PNG";
-import meme7 from "../assets/meme-7.PNG";
+import meme2 from "../assets/nah-1.webp";
+import meme3 from "../assets/nah-2.webp";
+import meme4 from "../assets/nah-3.webp";
+import meme5 from "../assets/nah-4.webp";
+import meme6 from "../assets/nah-5.webp";
+import meme7 from "../assets/nah-6.webp";
 
 const Memes = () => {
   return (
