@@ -32,7 +32,7 @@ const Hero = () => {
         </a>
       </div>
       <div className="flex justify-center">
-        <h1 className="text-5xl mx-auto">Would you lose?</h1>
+        <h1 className="text-5xl mx-auto mb-6">Would you lose?</h1>
       </div>
     </div>
   );
