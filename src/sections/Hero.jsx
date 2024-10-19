@@ -31,6 +31,9 @@ const Hero = () => {
           <BiLogoTelegram color="black" className="text-6xl" />
         </a>
       </div>
+      <div className="flex justify-center">
+        <h1 className="text-5xl mx-auto">Would you lose?</h1>
+      </div>
     </div>
   );
 };
