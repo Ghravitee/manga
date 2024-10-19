@@ -6,10 +6,11 @@ const Hero = () => {
   return (
     <div>
       <img src={meme1} alt="" className="mx-auto" />
-      <div className="flex justify-center">
-        <h1 className="text-5xl mx-auto">Nah, I&apos;d Win!</h1>
+      <div className="flex flex-col justify-center mt-8 mb-12">
+        <h1 className="text-5xl lg:text-7xl mx-auto">Nah, I&apos;d Win!</h1>
+        <h2 className="text-5xl lg:text-7xl mx-auto">ca: </h2>
       </div>
-      <div className="flex gap-3 items-center justify-center my-6">
+      <div className="flex gap-8 items-center justify-center my-6 mb-12">
         <a
           href="#"
           className=""
@@ -18,7 +19,7 @@ const Hero = () => {
           data-aos-easing="ease-in-out"
           data-aos-delay="300"
         >
-          <RiTwitterXFill color="black" className="text-6xl" />
+          <RiTwitterXFill color="black" className="text-6xl " />
         </a>
         <a
           href=""
@@ -31,8 +32,8 @@ const Hero = () => {
           <BiLogoTelegram color="black" className="text-6xl" />
         </a>
       </div>
-      <div className="flex justify-center">
-        <h1 className="text-5xl mx-auto mb-6">Would you lose?</h1>
+      <div className="flex justify-center mt-8 mb-12">
+        <h1 className="text-5xl lg:text-7xl mx-auto mb-6">Would you lose?</h1>
       </div>
     </div>
   );

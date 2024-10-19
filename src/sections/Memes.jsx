@@ -7,7 +7,7 @@ import meme7 from "../assets/meme-7.JPG";
 
 const Memes = () => {
   return (
-    <div style={styles.gridContainer}>
+    <div style={styles.gridContainer} className="py-20">
       <img src={meme2} alt="meme2" style={styles.image} />
       <img src={meme3} alt="meme3" style={styles.image} />
       <img src={meme4} alt="meme4" style={styles.image} />
@@ -24,9 +24,10 @@ const styles = {
     gridTemplateColumns: "repeat(3, 1fr)",
     gap: "20px", // Space between images
   },
+
   image: {
     width: "100%", // Ensures images fit the grid cells
-    height: "auto",
+    height: "fit",
   },
 };
 
