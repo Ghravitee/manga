@@ -1,4 +1,3 @@
-import React from "react";
 import meme2 from "../assets/meme-2.JPG";
 import meme3 from "../assets/meme-3.JPG";
 import meme4 from "../assets/meme-4.JPG";
@@ -23,7 +22,7 @@ const styles = {
   gridContainer: {
     display: "grid",
     gridTemplateColumns: "repeat(3, 1fr)",
-    gap: "10px", // Space between images
+    gap: "20px", // Space between images
   },
   image: {
     width: "100%", // Ensures images fit the grid cells
