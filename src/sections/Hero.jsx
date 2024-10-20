@@ -1,6 +1,7 @@
 import { useState } from "react";
 import meme1 from "../assets/meme-1.png";
 import { RiTwitterXFill } from "react-icons/ri";
+import pump from "../assets/pump-icon.svg";
 // import { Typewriter } from "react-simple-typewriter";
 import { FaRegCopy } from "react-icons/fa6";
 import { FaCopy } from "react-icons/fa6";
@@ -46,6 +47,7 @@ const Hero = () => {
         >
           <RiTwitterXFill color="black" className="text-6xl " />
         </a>
+        <img src={pump} alt="" width={30} height={30} />
       </div>
       <div className="flex justify-center mt-8 mb-12">
         <h1 className="text-5xl lg:text-7xl mx-auto mb-6">Would you lose?</h1>
