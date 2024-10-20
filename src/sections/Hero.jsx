@@ -1,7 +1,7 @@
 import { useState } from "react";
 import meme1 from "../assets/meme-1.png";
 import { RiTwitterXFill } from "react-icons/ri";
-import pump from "../assets/pump-icon.svg";
+// import pump from "../assets/pump-icon.svg";
 // import { Typewriter } from "react-simple-typewriter";
 import { FaRegCopy } from "react-icons/fa6";
 import { FaCopy } from "react-icons/fa6";
