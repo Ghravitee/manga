@@ -27,7 +27,7 @@
 
 // export default Memes;
 
-import nahVideo from "../assets/nah-video.mp4";
+import nahVideo from "../assets/nah-video.MP4";
 
 const Memes = () => {
   return (
