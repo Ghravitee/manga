@@ -48,7 +48,7 @@ const Memes = () => {
 const styles = {
   video: {
     width: "100%", // Ensures video fits the grid cell
-    height: "",
+    height: "auto",
   },
 };
 
