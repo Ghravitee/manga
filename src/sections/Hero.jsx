@@ -47,7 +47,7 @@ const Hero = () => {
         >
           <RiTwitterXFill color="black" className="text-6xl " />
         </a>
-        <img src={pump} alt="" width={30} height={30} />
+        {/* <img src={pump} alt="" width={30} height={30} /> */}
       </div>
       <div className="flex justify-center mt-8 mb-12">
         <h1 className="text-5xl lg:text-7xl mx-auto mb-6">Would you lose?</h1>
