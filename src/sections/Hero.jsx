@@ -36,7 +36,7 @@ const Hero = () => {
           )}
         </div>
       </div>
-      <div className="flex gap-8 items-center justify-center my-6 mb-12">
+      <div className="flex items-center justify-center my-6 mb-12">
         <a
           href="#"
           className=""
@@ -47,7 +47,7 @@ const Hero = () => {
         >
           <RiTwitterXFill color="black" className="text-6xl mb-4" />
         </a>
-        <a href="" className="flex items-center justify-center">
+        <a href="" className="">
           <img
             src={pump}
             alt=""
