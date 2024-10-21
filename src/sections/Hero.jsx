@@ -1,7 +1,7 @@
 import { useState } from "react";
 import meme1 from "../assets/meme-1.png";
 import { RiTwitterXFill } from "react-icons/ri";
-// import pump from "../assets/pump-icon.svg";
+import pump from "../assets/pump-black-white.PNG";
 // import { Typewriter } from "react-simple-typewriter";
 import { FaRegCopy } from "react-icons/fa6";
 import { FaCopy } from "react-icons/fa6";
@@ -45,9 +45,16 @@ const Hero = () => {
           data-aos-easing="ease-in-out"
           data-aos-delay="300"
         >
-          <RiTwitterXFill color="black" className="text-6xl " />
+          <RiTwitterXFill color="black" className="text-6xl mb-4" />
         </a>
-        {/* <img src={pump} alt="" width={30} height={30} /> */}
+        <a href="" className="flex items-center justify-center">
+          <img
+            src={pump}
+            alt=""
+            width={110}
+            className="aspect-square object-cover my-auto"
+          />
+        </a>
       </div>
       <div className="flex justify-center mt-8 mb-12">
         <h1 className="text-5xl lg:text-7xl mx-auto mb-6">Would you lose?</h1>
