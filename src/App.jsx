@@ -32,7 +32,10 @@ const App = () => {
     <div>
       {/* Background music with muted initially set to true */}
       <audio autoPlay loop muted>
-        <source src="/manga.mp3" type="audio/mpeg" />
+        <source
+          src={`${import.meta.env.BASE_URL}manga.mp3`}
+          type="audio/mpeg"
+        />
         Your browser does not support the audio element.
       </audio>
 
