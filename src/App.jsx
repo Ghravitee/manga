@@ -3,7 +3,7 @@ import Hero from "./sections/Hero";
 import Memes from "./sections/Memes";
 
 const App = () => {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     const audioElement = document.querySelector("#audio");
