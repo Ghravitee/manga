@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
       <div className="flex items-center justify-center my-6 mb-12">
         <a
-          href="#"
+          href="https://x.com/winnersonsolana"
           className=""
           data-aos="zoom-in"
           data-aos-duration="1000"
